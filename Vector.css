@@ -1,0 +1,290 @@
+/***
+ *
+ *	MediaWiki:Vector.css
+ *
+ ***/	
+		
+/* ------- content border ------- */
+
+.mw-body {
+    border-top: 1px solid #cc1122;
+    border-right: none;
+    border-bottom: 1px solid #cc1122;
+    border-left: 1px solid #cc1122;
+}
+
+/* ------- tab-break ------- */
+
+.vectorTabs span,
+.vectorTabs ul,
+.vectorTabs,
+.vectorMenu h3 {
+    background-image: url("data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAMUlEQVQImaWLsQ0AIAzDqvz/cIzUsEIXBgbLXlxJVFVPAmpzOUbN6MNhtFFYnz9qswEX5W1n8x1JbwAAAABJRU5ErkJggg==");
+}
+
+/* ------- tab-normal-fade ------- */
+
+.vectorTabs ul li {
+    background-image: url("data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkCAIAAADITs03AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAK0lEQVQYlWP4//8/EwMDw4jF////Z8IVBjBxfDQ+Noz/798/YtQznBFUAgCJkECCp5RVNgAAAABJRU5ErkJggg==");
+}
+
+/* ------- unwatch ------- */
+
+.vectorTabs #ca-unwatch.icon a {
+    background-image: linear-gradient(transparent, transparent), url("data: image/svg+xml,%3Csvg xmlns=%22http: //www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 xmlns: xlink=%22http: //www.w3.org/1999/xlink%22%3E %3Cdefs%3E %3ClinearGradient id=%22a%22%3E %3Cstop offset=%220%22 stop-color=%22%23cc9999%22/%3E %3Cstop offset=%22.5%22 stop-color=%22%23cc1122%22/%3E %3Cstop offset=%221%22 stop-color=%22%23fff%22/%3E %3C/linearGradient%3E %3ClinearGradient id=%22b%22 x1=%2213.47%22 x2=%224.596%22 y1=%2214.363%22 y2=%223.397%22 xlink: href=%22%23a%22 gradientUnits=%22userSpaceOnUse%22/%3E %3C/defs%3E %3Cpath fill=%22url%28%23b%29%22 stroke=%22%23660000%22 stroke-width=%22.99992%22 d=%22M8.103 1.146l2.175 4.408 4.864.707-3.52 3.431.831 4.845-4.351-2.287-4.351 2.287.831-4.845-3.52-3.431 4.864-.707z%22/%3E %3C/svg%3E");
+}
+
+.vectorTabs #ca-unwatch.icon a:hover,
+.vectorTabs #ca-unwatch.icon a:focus {
+    background-image: linear-gradient(transparent, transparent), url("data: image/svg+xml,%3Csvg xmlns=%22http: //www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 xmlns: xlink=%22http: //www.w3.org/1999/xlink%22%3E %3Cdefs%3E %3ClinearGradient id=%22a%22%3E %3Cstop offset=%220%22 stop-color=%22%23cc9999%22/%3E %3Cstop offset=%22.5%22 stop-color=%22%23cc1122%22/%3E %3Cstop offset=%221%22 stop-color=%22%23fff%22/%3E %3C/linearGradient%3E %3ClinearGradient id=%22b%22 x1=%2213.47%22 x2=%224.596%22 y1=%2214.363%22 y2=%223.397%22 xlink: href=%22%23a%22 gradientUnits=%22userSpaceOnUse%22/%3E %3C/defs%3E %3Cpath fill=%22url%28%23b%29%22 stroke=%22%23cc1122%22 stroke-width=%22.99992%22 d=%22M8.103 1.146l2.175 4.408 4.864.707-3.52 3.431.831 4.845-4.351-2.287-4.351 2.287.831-4.845-3.52-3.431 4.864-.707z%22/%3E %3C/svg%3E");
+}
+
+/* ------- watch ------- */
+
+.vectorTabs #ca-watch.icon a {
+    background-image: linear-gradient(transparent, transparent), url("data: image/svg+xml,%3Csvg xmlns=%22http: //www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22%3E %3Cpath fill=%22%23fff%22 stroke=%22%23660000%22 stroke-width=%22.99992%22 d=%22M8.103 1.146l2.175 4.408 4.864.707-3.52 3.431.831 4.845-4.351-2.287-4.351 2.287.831-4.845-3.52-3.431 4.864-.707z%22/%3E %3C/svg%3E");
+}
+
+.vectorTabs #ca-watch.icon a:hover,
+.vectorTabs #ca-watch.icon a:focus {
+    background-image: linear-gradient(transparent, transparent), url("data: image/svg+xml,%3Csvg xmlns=%22http: //www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22%3E %3Cpath fill=%22%23fff%22 stroke=%22%23cc1122%22 stroke-width=%22.99992%22 d=%22M8.103 1.146l2.175 4.408 4.864.707-3.52 3.431.831 4.845-4.351-2.287-4.351 2.287.831-4.845-3.52-3.431 4.864-.707z%22/%3E %3C/svg%3E");
+}
+
+/* ------- loading ------- */
+
+.vectorTabs #ca-unwatch.icon a.loading,
+.vectorTabs #ca-watch.icon a.loading {
+    background-image: linear-gradient(transparent, transparent), url("data: image/svg+xml,%3Csvg xmlns=%22http: //www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22%3E %3Cpath fill=%22%23fff%22 stroke=%22%23660000%22 stroke-width=%22.99992%22 d=%22M8.103 1.146l2.175 4.408 4.864.707-3.52 3.431.831 4.845-4.351-2.287-4.351 2.287.831-4.845-3.52-3.431 4.864-.707z%22/%3E %3C/svg%3E");
+}
+
+/* ------- bullets ------- */
+
+ul {
+    list-style-image: url("data: image/svg+xml,%3Csvg xmlns=%22http: //www.w3.org/2000/svg%22 width=%225%22 height=%2213%22%3E %3Ccircle cx=%222.5%22 cy=%229.5%22 r=%222.5%22 fill=%22%23cc1122%22/%3E %3C/svg%3E");
+    list-style-image: url(data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAANCAIAAADuXjPfAAAABnRSTlMA/wD/AP83WBt9AAAAHklEQVR4AWP4jwrowWcI6oEgEBtIISNCfFT9mOYDACO/lbNIGC/yAAAAAElFTkSuQmCC) \9;
+}
+
+/* ------- external link ------- */
+
+.mw-parser-output .external {
+    background-image: linear-gradient(transparent, transparent), url("data: image/svg+xml,%3Csvg xmlns=%22http: //www.w3.org/2000/svg%22 width=%2212%22 height=%2212%22%3E %3Cpath fill=%22%23fff%22 stroke=%22%23c12%22 d=%22M1.5 4.518h5.982V10.5H1.5z%22/%3E %3Cpath fill=%22%23c12%22 d=%22M5.765 1H11v5.39L9.427 7.937l-1.31-1.31L5.393 9.35l-2.69-2.688 2.81-2.808L4.2 2.544z%22/%3E %3Cpath fill=%22%23fff%22 d=%22M9.995 2.004l.022 4.885L8.2 5.07 5.32 7.95 4.09 6.723l2.882-2.88-1.85-1.852z%22/%3E %3C/svg%3E");
+}
+
+/* ------- wrap long code lines ------- */
+
+.mw-code,
+pre {
+    overflow-wrap: break-word;
+}
+
+/* ------- Navigation ------- */
+
+#n-mainpage a {
+    font-size: 150%;
+}
+
+#n-mainpage#n-mainpage a:visited {
+    color: #600;
+}
+
+h3#p-tb-label {
+    display: none;
+}
+
+#mw-panel #p-logo + .portal .body {
+    margin-left: 0;
+}
+
+#mw-panel .portal .body {
+    margin: 0.5em 0 0.5em 0;
+    text-align: center;
+}
+
+/* ------- Links ------- */
+
+#mw-panel .portal .body li a,
+.vectorTabs li a,
+.vectorMenu li a,
+.vectorTabs li.selected a,
+.vectorTabs li.selected a:hover,
+a {
+    text-decoration: none;
+    color: #600;
+    background: none;
+}
+
+#mw-panel .portal .body li a:visited,
+a:visited {
+    color: #909090;
+}
+
+#mw-panel .portal .body li a:active,
+.vectorTabs li a:active,
+a:active {
+    color: #c91d2d;
+}
+
+#mw-panel .portal .body li a:hover,
+#mw-panel .portal .body li a:focus,
+.vectorTabs li a:hover,
+.vectorTabs li a:focus,
+.vectorMenu li a:hover,
+.vectorMenu li a:focus,
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+#mw-panel .portal .body li a.stub,
+a.stub {
+    color: #c99;
+}
+
+#mw-panel .portal .body li a.new,
+#p-personal a.new,
+a.new
+{
+    color: #c99;
+}
+
+#mw-panel .portal .body li a.new:visited,
+#p-personal a.new:visited,
+a.new:visited
+{
+    color: #c99;
+}
+
+/* ------- External Links ------- */
+
+.mw-body a.external {
+    color: #600;
+}
+
+.mw-body a.external:visited {
+    color: #909090; /* bug 3112 */
+}
+
+.mw-body a.external:active {
+    color: #c91d2d;
+}
+
+.mw-body a.external.free {
+    word-wrap: break-word;
+}
+
+/* ------- wikiEditor ------- */
+
+.wikiEditor-ui-tabs.wikiEditor-ui-tabs div a {
+    color: #600;
+}
+
+.wikiEditor-ui-tabs.wikiEditor-ui-tabs div.current a {
+    color: inherit;
+}
+
+.wikiEditor-ui-toolbar.wikiEditor-ui-toolbar .tabs span.tab a,
+.wikiEditor-ui-toolbar .tabs span.tab a:visited {
+    color: #600;
+}
+
+.wikiEditor-ui-toolbar.wikiEditor-ui-toolbar {
+    background-image: none;
+    background-color: #fff;
+}
+
+.wikiEditor-ui-toolbar.wikiEditor-ui-toolbar .sections .section {
+    background-image: none;
+    background-color: #f3f3f3;
+}
+
+.wikiEditor-ui-toolbar.wikiEditor-ui-toolbar .booklet .index div {
+    color: #909090;
+}
+
+.wikiEditor-ui-toolbar.wikiEditor-ui-toolbar .booklet .index .current {
+    background-color: #fff;
+}
+
+/* ------- Fieldset ------- */
+/*
+fieldset {
+    border: 1px solid #ccc;
+    margin: 1em 0 1em 0;
+    padding: 0 1em 1em;
+}
+*/
+
+/* ------- Focus recangles ------- */
+/*
+.mw-ui-input:focus {
+    box-shadow: inset 0 0 0 2px #c91d2d;
+    border-color: #c91d2d;
+    outline: 0;
+}
+*/
+
+/* ------- Constructive Buttons ------- */
+/*
+input.mw-ui-button.mw-ui-constructive {
+    background: #777;
+    color: #bbb;
+    border: 1px solid #ddd;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+
+input.mw-ui-button.mw-ui-constructive:hover {
+    background-color: #555;
+}
+
+input.mw-ui-button.mw-ui-constructive:focus {
+    border-color: #ffffff;
+    box-shadow: 0 0 0 1px #ddd;
+    outline: none;
+}
+*/
+
+/* ------- checkbox ------- */
+
+.oo-ui-textInputWidget.oo-ui-widget-enabled input:focus,
+.oo-ui-textInputWidget.oo-ui-widget-enabled textarea:focus {
+    border-color: #c91d2d;
+    box-shadow: inset 0 0 0 1px #c91d2d;
+}
+
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']:focus + span {
+    border-color: #c91d2d;
+    box-shadow: inset 0 0 0 1px #c91d2d;
+}
+
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']:hover + span {
+    border-color: #c91d2d;
+}
+
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']:active + span {
+    background-color: #600;
+    border-color: #600;
+    box-shadow: inset 0 0 0 1px #600;
+}
+
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']: checked + span {
+    background-color: #c91d2d;
+    border-color: #c91d2d;
+}
+
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']: checked:focus + span {
+    background-color: #c91d2d;
+    border-color: #c91d2d;
+    box-shadow: inset 0 0 0 1px #c91d2d, inset 0 0 0 2px #fff;
+}
+
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']: checked:hover + span {
+    background-color: #c99;
+    border-color: #c99;
+}
+
+.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']: checked:active + span {
+    background-color: #600;
+    border-color: #600;
+    box-shadow: inset 0 0 0 1px #600;
+}
+

@@ -1,0 +1,9 @@
+/***
+ *
+ *	MediaWiki:Mobile.css
+ *
+ ***/	
+		
+.page-Main_Page.is-authenticated .pre-content {
+    display: none;
+}
