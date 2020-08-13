@@ -3,6 +3,35 @@
  *	MediaWiki:Mobile.css
  *
  ***/	
+
+/* ------- Alpha-Numberic Lists ------- */
+
+/* Tier 2 */
+ol ol {
+    list-style-type:upper-alpha;
+}
+/* Tier 3 */
+ol ol ol {
+    list-style-type:upper-roman;
+}
+/* Tier 4 */
+ol ol ol ol {
+    list-style-type:decimal;
+}
+/* Tier 5 */
+ol ol ol ol ol {
+    list-style-type:lower-alpha;
+}
+
+/* Tier 6 */
+ol ol ol ol ol ol {
+    list-style-type:lower-roman;
+}
+
+/* ------- TOC ------- */
+
+/* option to remove
+.noautonum .tocnumber { display: none; }
 		
 /* ------- Icons ------- */
 
